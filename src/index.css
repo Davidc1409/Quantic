@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "NexaLight" ;
+    src: url(./assets/Nexa-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: "NexaHeavy" ;
+    src: url(./assets/Nexa-Heavy.ttf);
+}
+
+.nexaHeavy{
+    font-family: 'NexaHeavy';
+}
+
+.nexaLight{
+    font-family: 'NexaLight';
+}
+
+.fontColor{
+    color:#5f259f;
+}
+
+
