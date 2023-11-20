@@ -1,13 +1,11 @@
 import {Input } from "./components/forms/Input.jsx";
 import {FilterCheckbox} from "./components/forms/CheckBox.jsx";
 import { useState, useEffect } from "react";
-import {InputRange} from "./components/forms/InputRange.jsx";
 import { InputSelectDataset } from "./components/forms/InputSelectDataset.jsx";
 import { GreenSpaces } from "./components/datasets/GreenSpaces.jsx";
 import { WaterFountains } from "./components/datasets/WaterFountains.jsx";
 import {EquipementActivities} from "./components/datasets/EquipementActivities.jsx";
 import {InputDistrict} from "./components/forms/InputDistrict.jsx";
-import { LocationRow } from "./components/locations/LocationRow.jsx";
 
 // composant d'affichage des cartes de localisation et de tableau.
 function LocationCards ({freshLocations,dataset,cityDistrictList}) {
