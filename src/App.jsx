@@ -1,7 +1,6 @@
 import {Input } from "./components/forms/Input.jsx";
 import {FilterCheckbox} from "./components/forms/CheckBox.jsx";
 import { useState, useEffect } from "react";
-import {InputRange} from "./components/forms/InputRange.jsx";
 import { InputSelectDataset } from "./components/forms/InputSelectDataset.jsx";
 import { GreenSpaces } from "./components/datasets/GreenSpaces.jsx";
 import { WaterFountains } from "./components/datasets/WaterFountains.jsx";
