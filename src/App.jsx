@@ -390,8 +390,6 @@ function App() {
         OnShowPaidServiceChange={setshowPaidService} 
         searchValue={searchValue} 
         onSearchValueChange={setSearchValue}
-        rangeValue={rangeValue}
-        onRangeChange={setRangeValue} 
         inputSelectDatasetValue = {dataset}
         onChangeDataset={setDataset}
         districtValue={districtValue}
