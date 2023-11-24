@@ -76,6 +76,7 @@ function LocationCards ({freshLocations,dataset,cityDistrictList}) {
           listLocations.push(<WaterFountains key={location.geo_point_2d.lon+location.geo_point_2d.lat} street={location.voie} type_object={location.type_objet} availability={location.dispo} noStreetPair={location.no_voirie_pair} noStreetOdd={location.no_voirie_impair} city={location.commune}  />)
         })
         break;
+        
 
       case "ilots-de-fraicheur-equipements-activites" : 
 
