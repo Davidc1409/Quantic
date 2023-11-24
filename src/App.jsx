@@ -368,7 +368,7 @@ function App() {
       if(searchValue && dataset=="fontaines-a-boire" && !(location.no_voirie_impair+location.no_voirie_pair+" "+location.voie).toLowerCase().includes(searchValue) ){
         return false;
       }
-      if( (dataset=="fontaines-a-boire" && districtValue!="" && !location.commune.includes(districtCityValue))){
+      if( (location.commune && districtValue!="" && !location.commune.includes(districtCityValue))){
         return false;
       }
       if((location.arrondissement && !location.arrondissement.includes(districtValue))) {
